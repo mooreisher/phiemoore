@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Phiona Moore Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with Hamburger Menu -->
+        <header>
+            <div class="logo">
+                <h1>Phiona Moore Real Estate</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Contact Information -->
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> <a href="tel:+12532006442">+1 253-200-6442</a></p>
+            <p><strong>Email:</strong> <a href="mailto:mannaproperties01@gmail.com">mannaproperties01@gmail.com</a></p>
+            <p><strong>Book a Consultation:</strong> <a href="https://calendly.com/mannaproperties01/30min" class="calendly-link">Schedule on Calendly</a></p>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Phiona Moore Real Estate. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

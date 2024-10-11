@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Phiona Moore Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background: url('dd1.jpg') no-repeat center left fixed; background-size: cover; background-position: 50% 25%;">
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Manna Properties & Real Estate</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Property Listings -->
+        <section class="property-listing">
+            <h2>Featured Properties</h2>
+
+            <!-- Property 1 -->
+            <div class="property-card">
+                <div class="image-slider">
+                    <img src="house1-1.jpg" alt="House Image 1" class="active">
+                    <img src="house1-2.jpg" alt="House Image 2">
+                    <img src="house1-3.jpg" alt="House Image 3">
+                    <img src="house1-4.jpg" alt="House Image 3">
+                    <img src="house1-5.jpg" alt="House Image 3">
+                    <img src="house1-6.jpg" alt="House Image 3">
+                    <img src="house1-7.jpg" alt="House Image 3">
+                    <button class="prev" onclick="prevImage(this)">&#10094;</button>
+                    <button class="next" onclick="nextImage(this)">&#10095;</button>
+                </div>
+                <div class="property-details">
+                    <h3>Luxury Family Home</h3>
+                    <p><strong>Location:</strong> 3900 N Pine Grove Ave #302,
+                        Chicago, IL 60613</p>
+                    <p><strong>Price:</strong> $400,000</p>
+                    <p><strong>Bedrooms:</strong> 4</p>
+                    <p><strong>Bathrooms:</strong> 4</p>
+                    <p class="property-description">
+                        <span class="short-text">Don't miss out on this split 2 bed/2 bath southwest corner with a balcony...</span>
+                        <span class="full-text">Don't miss out on this split 2 bed/2 bath southwest corner with a balcony. Primary bedroom features an updated ensuite bath. Hardwood floors, open kitchen with stainless steel appliances and granite counter tops. Parking included in the price. Building amenities include an Indoor Pool, showers, saunas, exercise room with locker room and a rooftop sundeck with Lake and City views. Ideal Lakeview location with easy access to the Lakefront, Wrigley Field, Marovitz golf course, plenty of restaurants, Whole Foods, and more. No rental restrictions. The assessments cover gas, heat, cable, water, and internet, building maintenance and management.</span>
+                        <a href="javascript:void(0);" class="toggle-btn" onclick="toggleText(this)">Show More</a>
+                    </p>
+                    <a href="contacts.html" class="contact-btn">Contact Agent</a>
+                </div>
+            </div>
+
+            <!-- Property 2 -->
+            <div class="property-card">
+                <div class="image-slider">
+                    <img src="house2-1.jpg" alt="House Image 1" class="active">
+                    <img src="house2-2.jpg" alt="House Image 2">
+                    <img src="house2-3.jpg" alt="House Image 3">
+                    <img src="house2-4.jpg" alt="House Image 4">
+                    <img src="house2-5.jpg" alt="House Image 5">
+                    <button class="prev" onclick="prevImage(this)">&#10094;</button>
+                    <button class="next" onclick="nextImage(this)">&#10095;</button>
+                </div>
+                <div class="property-details">
+                    <h3>Modern Apartment</h3>
+                    <p><strong>Location:</strong> 2878 Waterbury Rd, Stowe, VT 05672</p>
+                    <p><strong>Price:</strong> $800,000</p>
+                    <p><strong>Bedrooms:</strong> 4</p>
+                    <p><strong>Bathrooms:</strong> 3</p>
+                    <p class="property-description">
+                        <span class="short-text">This fully remodeled Vermont Chique 4 bedroom 3 bath home with all new furnishings, linens & towels...</span>
+                        <span class="full-text">This fully remodeled Vermont Chique 4 bedroom 3 bath home with all new furnishings, linens & towels waits to host you for your Stowe Vermont vacation. The house sits back of Route 100 just before Moscow Rd in Stowe giving you easy access to everything that Stowe has to offer. 5 Minutes to the center of town & 15 minutes to Stowe Mountain Resort. Several Breweries are also with in minutes of this house. You can walk to the Local Maple Syrup store just up the road as well as visiting the Fly Rod shop which is also with in walking distance. The house has a large open kitchen to cook your meals in with a sitting area with a large TV to view whilst you are cooking or hanging in the area. The dining area is just to the side of this with plenty of seating for everyone to gather around. For families there is another sitting room with a large TV for children or young adults to hang out in. The bedrooms are all a nice size with closets and a chest of draws for your belongings. The Primary bedroom has an ensuite bathroom with nice amenities. The two central guest rooms share a bathroom and the Second Primary bedroom also has an ensuite bathroom. The mudroom has plenty of space to hang coats & boots with an over sized walk in closet. The driveway has plenty of parking for all your vehicles and has a flat driveway making it easy to access in the winter.</span>
+                        <a href="javascript:void(0);" class="toggle-btn" onclick="toggleText(this)">Show More</a>
+                    </p>
+                    <a href="contacts.html" class="contact-btn">Contact Agent</a>
+                </div>
+            </div>
+
+            <!-- Property 3 -->
+            <div class="property-card">
+                <div class="image-slider">
+                    <img src="house3-1.jpg" alt="House Image 1" class="active">
+                    <img src="house3-2.jpg" alt="House Image 2">
+                    <img src="house3-3.jpg" alt="House Image 3">
+                    <img src="house3-4.jpg" alt="House Image 3">
+                    <img src="house3-5.jpg" alt="House Image 3">
+                    <img src="house3-6.jpg" alt="House Image 3">
+                    <button class="prev" onclick="prevImage(this)">&#10094;</button>
+                    <button class="next" onclick="nextImage(this)">&#10095;</button>
+                </div>
+                <div class="property-details">
+                    <h3>Cozy Cottage</h3>
+                    <p><strong>Location:</strong> 1323 K St SE #204,
+                        Washington, DC 20003</p>
+                    <p><strong>Price:</strong> $650,000</p>
+                    <p><strong>Bedrooms:</strong> 2</p>
+                    <p><strong>Bathrooms:</strong> 2</p>
+                    <p class="property-description">
+                        <span class="short-text">Welcome to 1323 K St SE #204, featuring parking and extra storage!...</span>
+                        <span class="full-text">Welcome to 1323 K St SE #204, featuring parking and extra storage! This beautifully updated 2BD/2BA condominium offers modern living across two spacious levels. Freshly painted and showcasing refinished hardwood floors, this home is move-in ready, radiating both style and comfort. The gourmet kitchen is a chef’s delight, boasting granite countertops, stainless steel appliances, and generous cabinet space. This culinary haven seamlessly opens into the bright and airy living and dining areas, creating an inviting atmosphere perfect for entertaining guests or enjoying a cozy evening at home. On the upper level, you'll find two spacious bedrooms that provide both privacy and comfort, along with two full bathrooms for added convenience. Large windows bathe the spaces in natural light, while ample closet space ensures all your storage needs are met. The home also includes the rare convenience of dedicated parking, additional storage, and an in-unit washer and dryer, making everyday living a breeze—a true luxury in the city. The incredible location of this residence places you just minutes away from essential amenities such as Harris Teeter, the critically acclaimed Roost Food Hall, and Eastern Market, where you can indulge in fresh produce and artisanal goods. For your commuting needs, Metro access is only a few blocks away, making it easy to navigate throughout the city, while easy access to 395/695 ensures smooth travels by car. Situated in the vibrant Capitol Hill neighborhood, you'll also be close to the lively Barracks Row and Navy Yard, both offering a diverse range of dining, shopping, and entertainment options. Explore the rich cultural landscape with local parks, historic sites, and community events that define this beloved area. With its combination of peaceful residential living and urban accessibility, this home truly represents the best of both worlds. Don’t miss your chance to make this remarkable condo your new home—schedule your private tour today!</span>
+                        <a href="javascript:void(0);" class="toggle-btn" onclick="toggleText(this)">Show More</a>
+                    </p>
+                    <a href="contacts.html" class="contact-btn">Contact Agent</a>
+                </div>
+            </div>
+
+            <!-- Property 4 -->
+            <div class="property-card">
+                <div class="image-slider">
+                    <img src="house4-1.jpg" alt="House Image 1" class="active">
+                    <img src="house4-2.jpg" alt="House Image 2">
+                    <img src="house4-3.jpg" alt="House Image 3">
+                    <img src="house4-4.jpg" alt="House Image 4">
+                    <img src="house4-5.jpg" alt="House Image 5">
+                    <img src="house4-6.jpg" alt="House Image 6">
+                    <button class="prev" onclick="prevImage(this)">&#10094;</button>
+                    <button class="next" onclick="nextImage(this)">&#10095;</button>
+                </div>
+                <div class="property-details">
+                    <h3>Luxury Family Home</h3>
+                    <p><strong>Location:</strong> 1222 NE 117th Ave,
+                        Portland, OR 97220</p>
+                    <p><strong>Price:</strong> $650,000</p>
+                    <p><strong>Bedrooms:</strong> 3</p>
+                    <p><strong>Bathrooms:</strong>2</p>
+                    <p class="property-description">
+                        <span class="short-text">Welcome to this 3-bedroom, 2-bathroom ranch style home nestled in NE Portland...</span>
+                        <span class="full-text">Welcome to this 3-bedroom, 2-bathroom ranch style home nestled in NE Portland. The open-concept living area is bright and welcoming, with large windows that let in plenty of natural light. The modern kitchen offers plenty of counter space for both everyday meals and entertaining. Step outside to a large landscaped private backyard featuring a covered patio—perfect for outdoor dining and relaxing year-round. Downstairs there is a finished bonus room, bathroom and living room with fireplace insert along with an unfinished storage area that offers plenty of storage room for your belongings. The oversized attached garage provides ample storage and workspace. This home offers both comfort and convenience.></a></span>
+                        <a href="javascript:void(0);" class="toggle-btn" onclick="toggleText(this)">Show More</a>
+                    </p>
+                    <a href="contacts.html" class="contact-btn">Contact Agent</a>
+                </div>
+            </div>
+
+            <!-- Property 5 -->
+            <div class="property-card">
+                <div class="image-slider">
+                    <img src="house5-1.jpg" alt="House Image 1" class="active">
+                    <img src="house5-2.jpg" alt="House Image 2">
+                    <img src="house5-3.jpg" alt="House Image 3">
+                    <img src="house5-4.jpg" alt="House Image 3">
+                    <img src="house5-5.jpg" alt="House Image 3">
+                    <img src="house5-6.jpg" alt="House Image 3">
+                    <img src="house5-7.jpg" alt="House Image 3">
+
+                    <button class="prev" onclick="prevImage(this)">&#10094;</button>
+                    <button class="next" onclick="nextImage(this)">&#10095;</button>
+                </div>
+                <div class="property-details">
+                    <h3>Mountain Retreat</h3>
+                    <p><strong>Location:</strong> 6517 California St,
+                        SAN FRANCISCO, CA 94121</p>
+                    <p><strong>Price:</strong> $1,000,000</p>
+                    <p><strong>Bedrooms:</strong> 3</p>
+                    <p><strong>Bathrooms:</strong>2</p>
+                    <p class="property-description">
+                        <span class="short-text">Nestled in the heart of Sea Cliff, this charming 3-bed, 2-bath home offers...</span>
+                        <span class="full-text">Nestled in the heart of Sea Cliff, this charming 3-bed, 2-bath home offers the perfect blend of history and modern comfort. Enjoy the convenience of nearby restaurants, shops, schools, and churches, all within walking distance. Plus, public transportation makes commuting a breeze. This spacious home features a downstairs unit with a bedroom and bathroom, and an upstairs unit with two bedrooms and one bathroom. Relax and unwind in the lush outdoor patio garden. As a historic WW2-era home on California St. , this property offers a unique opportunity to own a piece of Sea Cliff's rich history. Please do not disturb upstairs tenants - appointment only. Upper unit will be vacant during open houses. 
+
+                            4</span>
+                        <a href="javascript:void(0);" class="toggle-btn" onclick="toggleText(this)">Show More</a>
+                    </p>
+                    <a href="contacts.html" class="contact-btn">Contact Agent</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Contact Phiona Moore at <a href="tel:+1 253-200-6442">+1 253-200-6442</a> or email <a href="mannaproperties01@gmail.com">phionamoore@realestate.com</a></p>
+            <p>&copy; 2024 Phiona Moore Real Estate. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextImage(button) {
+            const card = button.closest('.property-card');
+            const images = card.querySelectorAll('.image-slider img');
+            const currentIndex = [...images].findIndex(img => img.classList.contains('active'));
+
+            images[currentIndex].classList.remove('active');
+            const nextIndex = (currentIndex + 1) % images.length;
+            images[nextIndex].classList.add('active');
+        }
+
+        function prevImage(button) {
+            const card = button.closest('.property-card');
+            const images = card.querySelectorAll('.image-slider img');
+            const currentIndex = [...images].findIndex(img => img.classList.contains('active'));
+
+            images[currentIndex].classList.remove('active');
+            const prevIndex = (currentIndex - 1 + images.length) % images.length;
+            images[prevIndex].classList.add('active');
+        }
+
+        function toggleText(button) {
+            const card = button.closest('.property-description');
+            const shortText = card.querySelector('.short-text');
+            const fullText = card.querySelector('.full-text');
+            const isHidden = fullText.style.display === 'none' || !fullText.style.display;
+
+            if (isHidden) {
+                fullText.style.display = 'inline';
+                shortText.style.display = 'none';
+                button.textContent = 'Show Less';
+            } else {
+                fullText.style.display = 'none';
+                shortText.style.display = 'inline';
+                button.textContent = 'Show More';
+            }
+        }
+
+        // Initially hide the full description
+        document.querySelectorAll('.full-text').forEach(el => el.style.display = 'none');
+    </script>
+</body>
+</html>
